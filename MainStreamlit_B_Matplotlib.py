@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from PIL import Image
 
 # Load the pre-trained model
-model = load_model(r'D:\coolyeah\semester5\ml\tubes_uas\BestModel_GoogleNet_Matplotlib.h5')  # Adjust the path to your model
+model = load_model('BestModel_VGG-16_Matplotlib.h5')  # Adjust the path to your model
 class_names = ['Busuk', 'Matang', 'Mentah']
 
 # Function to preprocess and classify image
